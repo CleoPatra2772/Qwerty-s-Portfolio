@@ -22,7 +22,7 @@ export default function Header({}: Props) {
             transition={{
                 duration: 1.5,
             }}
-            className='flex flex-row items-center'>
+            className='flex flex-row items-center cursor-pointer'>
                 {/* icons */}
                 
                 <SocialIcon url="https://www.instagram.com/cleopatra_2277/" fgColor="gray" bgColor="transparent" />
