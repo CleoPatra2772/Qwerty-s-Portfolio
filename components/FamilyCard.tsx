@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 
-type Props ={}
+type Props ={
+    
+}
 
 export const FamilyCard = ({}: Props) => {
     return (
