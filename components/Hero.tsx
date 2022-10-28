@@ -43,6 +43,10 @@ return (
              <Link href="#skills">
              <button className='heroButton'>Skills</button>
              </Link>
+
+             <Link href="#timeline">
+             <button className='heroButton'>Timeline</button>
+             </Link>
          </div>
          </div>
     </div>
