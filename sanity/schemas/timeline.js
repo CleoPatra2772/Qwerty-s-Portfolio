@@ -9,8 +9,8 @@ export default {
       type: "date",
       },
       {
-        name: "years Old",
-        title: "Years Old",
+        name: "age",
+        title: "Age",
         type: "string",
         },
       {
