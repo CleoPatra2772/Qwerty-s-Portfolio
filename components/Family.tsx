@@ -13,7 +13,7 @@ export const Family = () => {
                 Family
             </h3>
 
-            <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
+            <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-thin scrollbar-thumb-[#da3287]/80 scrollbar-track-gray-400/20">
                 {/* Family Member*/}
                 <FamilyCard />
                 {/* Family Member*/}
