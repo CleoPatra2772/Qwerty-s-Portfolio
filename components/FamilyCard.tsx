@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
+import { urlFor } from "../sanity";
+import { Family } from "../typings";
 
 type Props ={
-    
+    family: Family;
 }
 
-export const FamilyCard = ({}: Props) => {
+export const FamilyCard = ({family}: Props) => {
     return (
         <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] h-[460px]
         md:w-[500px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
@@ -17,19 +19,19 @@ export const FamilyCard = ({}: Props) => {
             whileInView={{ opacity: 1, y: 0}}
             viewport={{ once: true}}
             className="w-32 h-32 rounded-full xl:w-[100px] xl:h-[100px] object-cover object-center"
-            src="https://www.upwork.com/profile-portraits/c1NzaROaPnxIAHjGamgzmo50LcQXaE6CrEtups8X9xIEAGaRixWEHJXv2AnuQ2v8Hr"
+            src={urlFor(family.familyImage).url()}
             alt=""
             />
 
             <div className="px=0 md:px-10">
-                <h4 className="text-4xl font-light">Cleo</h4>
-                <p className="font-bold text-2xl mt-1">Qwerty's Mommy</p>
+                <h4 className="text-4xl font-light"></h4>
+                <p className="font-bold text-2xl mt-1">{family.role}</p>
                 <div className="flex space-x-2 my-2"></div>
-                <p>"Qwerty is an amazing dog, we are so glad that she is part of our family."</p>
+                <p>{family.message}</p>
 
                 <ul className="list-disc space-y-4 ml-5 text-lg">
-                    <li>Summary Points</li>
-                    <li>Summary Points</li>
+                    {/* <li>Summary Points</li>
+                    <li>Summary Points</li> */}
                     
                     
                 </ul>
