@@ -30,7 +30,7 @@ export const About = ({}: Props) => {
             viewport= {{ once: true }}
         
             src="https://iili.io/DrVisR.jpg"
-            className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-66 rounded-full object-cover
+            className='mb-20 md:mb-0 flex-shrink-0 w-56 h-66 rounded-full object-cover
             md:rounded-lg md:w-64 md:h-70 xl:w-[350px] xl:h-[400px]'
             />
 
