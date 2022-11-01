@@ -28,7 +28,7 @@ const Home = ({family, skills, timeline}: Props) => {
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0
     scrollbar scrollbar-thumb-[#da3287]/80 scrollbar-track-gray-400/20'>
       <Head>
-        <title>Qwerty's Portfolio</title>
+        <title>Qwerty&apos;s Portfolio</title>
         <link rel="icon" href="/paw-logo.png" />
       </Head>
       
