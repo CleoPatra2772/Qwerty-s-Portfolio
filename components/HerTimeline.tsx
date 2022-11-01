@@ -20,7 +20,7 @@ return (
         <div className="absolute  w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-thin scrollbar-thumb-[#da3287]/80 scrollbar-track-gray-400/20">
         {/* projects */}
         {timeline.map((month, i) => (
-            <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+            <div key={month._id} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                 <motion.img 
                 
                 className="mb-20 md:mb-0 flex-shrink-0 w-56 h-66 rounded-full object-cover
