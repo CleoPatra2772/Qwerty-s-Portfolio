@@ -1,7 +1,11 @@
 import { motion } from "framer-motion";
+import { Family } from "../typings";
 import { FamilyCard } from "./FamilyCard";
 
-export const Family = () => {
+type Props = {
+    family: Family[];
+}
+export const HerFamily = ({family} : Props) => {
     return(
         <motion.div 
         initial={{ opacity: 0 }}
@@ -14,12 +18,9 @@ export const Family = () => {
             </h3>
 
             <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-thin scrollbar-thumb-[#da3287]/80 scrollbar-track-gray-400/20">
-                {/* Family Member*/}
-                <FamilyCard />
-                {/* Family Member*/}
-                <FamilyCard />
-                {/* Family Member*/}
-                <FamilyCard />
+               {family?.map(familyMember => (
+                <FamilyCard key={familyMember._id} family={familyMember} />
+               ))}
             </div>
         </motion.div>
     )
