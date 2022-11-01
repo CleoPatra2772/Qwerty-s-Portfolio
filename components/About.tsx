@@ -30,18 +30,18 @@ export const About = ({}: Props) => {
             viewport= {{ once: true }}
         
             src="https://iili.io/DrVisR.jpg"
-            className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-66 rounded-full object-cover
+            className='mb-20 md:mb-0 flex-shrink-0 w-56 h-66 rounded-full object-cover
             md:rounded-lg md:w-64 md:h-70 xl:w-[350px] xl:h-[400px]'
             />
 
             <div className='space-y-10 px-0 md:px-10 '>
                 <h4 className='text-4xl font-semibold'>Here is a {" "} <span className='underline decoration-[#e25098]/50 '>little</span> background</h4>
                 <p className='text-base'>
-                   I'm Qwerty, you may also know me as 'pupper'🌹. I am currently three months old.
+                   I'm Qwerty, you may also know me as 'pupper'. I am currently three months old.
                    Here are more things about me...  
                    My parents always told me that I'm a good girl, so I think I must be.{"   "}
-                   I helped around as much as I could. I have four meals a day, and I poop a lot. 💩💩💩 I poop so much that I have to eat some of it, so my parents don't have to do too much of cleaning. 
-                   My favorite toys are plastic water bottles, socks and shoes. My parents don't even have to buy me new toys, therefore I am good at saving 💰money.
+                   I helped around as much as I could. I have four meals a day, and I poop a lot. I poop so much that I have to eat some of it, so my parents don't have to do too much of cleaning. 
+                   My favorite toys are plastic water bottles, socks and shoes. My parents don't even have to buy me new toys, therefore I am good at saving money.
                    Anyway, I enjoy going on walks! But I get excited easily and I can't control myself. So if you see me around, just wave and say hi, I'll wag my tail as fast as I could.</p>
                    
 
